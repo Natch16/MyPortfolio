@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jhon Wyn Verial | Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Development Services by Jhon Wyn Verial - Professional web development, UI/UX design, e-commerce solutions, and more.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+  <title>Services | Jhon Wyn Verial | Web Developer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <!-- Loading Animation -->
+  <div class="loading">
+    <div class="spinner"></div>
+  </div>
   <br><br>
     <!-- Navbar -->
  <nav class="navbar">
@@ -20,68 +31,285 @@
   </ul>
 </nav>
 
-      <header class="services-header">
-        <h1>My Services</h1>
-        <p>I build websites that are fast, modern, and user-friendly.</p>
-      </header>
-    
-      <section class="services-container">
-        <div class="service-box">
-          <h2>💻 Web Development</h2>
-          <p>I create responsive and fully functional websites using HTML, CSS, JavaScript, and frameworks like React and WordPress.</p>
+      <!-- Services Hero Section -->
+      <section class="services-hero">
+        <div class="services-hero-content">
+          <h1>My Services</h1>
+          <p>I build websites that are fast, modern, and user-friendly. From concept to deployment, I provide comprehensive web development solutions tailored to your needs.</p>
+          <div class="services-stats">
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+          </div>
         </div>
-    
-        <div class="service-box">
-          <h2>🎨 UI/UX Design</h2>
-          <p>Designing clean, intuitive user interfaces and seamless user experiences that match your brand identity.</p>
-        </div>
-    
-        <div class="service-box">
-          <h2>🔧 Website Maintenance</h2>
-          <p>Monthly maintenance, updates, bug fixing, and support to keep your site running smoothly.</p>
-        </div>
-    
-        <div class="service-box">
-          <h2>⚙️ Custom Web Systems</h2>
-          <p>I build inventory systems, contact managers, and other custom solutions tailored to your business needs.</p>
-        </div>
-    
-        <div class="service-box">
-          <h2>📈 SEO Optimization</h2>
-          <p>Improve your site’s visibility with optimized code structure and performance enhancements.</p>
-        </div>
+      </section>
 
-        <div class="service-box">
-            <h2>🚀 Performance Optimization</h2>
-            <p>I optimize loading speed and performance scores using techniques like image compression, lazy loading, and clean code practices.</p>
+      <!-- Featured Services -->
+      <section class="featured-services">
+        <div class="container">
+          <h2>Core Services</h2>
+          <div class="featured-grid">
+            <div class="featured-service">
+              <div class="service-icon">💻</div>
+              <h3>Web Development</h3>
+              <p>Full-stack web development using modern technologies and best practices.</p>
+              <ul class="service-features">
+                <li>Responsive Design</li>
+                <li>Modern Frameworks</li>
+                <li>Performance Optimized</li>
+                <li>SEO Ready</li>
+              </ul>
+              <a href="contact.html" class="service-cta">Get Started</a>
+            </div>
+            
+            <div class="featured-service">
+              <div class="service-icon">🎨</div>
+              <h3>UI/UX Design</h3>
+              <p>Creating beautiful and intuitive user experiences that convert visitors into customers.</p>
+              <ul class="service-features">
+                <li>User Research</li>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Brand Identity</li>
+              </ul>
+              <a href="contact.html" class="service-cta">Get Started</a>
+            </div>
+            
+            <div class="featured-service">
+              <div class="service-icon">🛒</div>
+              <h3>E-Commerce Solutions</h3>
+              <p>Complete online store development with secure payment processing and inventory management.</p>
+              <ul class="service-features">
+                <li>Payment Integration</li>
+                <li>Inventory Management</li>
+                <li>Order Processing</li>
+                <li>Analytics Dashboard</li>
+              </ul>
+              <a href="contact.html" class="service-cta">Get Started</a>
+            </div>
           </div>
-          
-          <div class="service-box">
-            <h2>👨‍🏫 Tech Consultation & Training</h2>
-            <p>I offer tech consultations for startups and one-on-one training for aspiring developers, helping them get started with web technologies.</p>
-          </div>
+        </div>
+      </section>
+    
+      <!-- All Services Grid -->
+      <section class="all-services">
+        <div class="container">
+          <h2>All Services</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">🔧</div>
+                <h3>Website Maintenance</h3>
+              </div>
+              <p>Monthly maintenance, updates, bug fixing, and support to keep your site running smoothly.</p>
+              <div class="service-price">Starting at $99/month</div>
+            </div>
 
-          <div class="service-box">
-            <h2>🛒 E-Commerce Development</h2>
-            <p>I develop online stores using platforms like WooCommerce or custom-built solutions, complete with secure payment gateways and inventory systems.</p>
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">⚙️</div>
+                <h3>Custom Web Systems</h3>
+              </div>
+              <p>I build inventory systems, contact managers, and other custom solutions tailored to your business needs.</p>
+              <div class="service-price">Custom Quote</div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">📈</div>
+                <h3>SEO Optimization</h3>
+              </div>
+              <p>Improve your site's visibility with optimized code structure and performance enhancements.</p>
+              <div class="service-price">Starting at $299</div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">🚀</div>
+                <h3>Performance Optimization</h3>
+              </div>
+              <p>I optimize loading speed and performance scores using techniques like image compression, lazy loading, and clean code practices.</p>
+              <div class="service-price">Starting at $199</div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">👨‍🏫</div>
+                <h3>Tech Consultation & Training</h3>
+              </div>
+              <p>I offer tech consultations for startups and one-on-one training for aspiring developers, helping them get started with web technologies.</p>
+              <div class="service-price">$75/hour</div>
+            </div>
+
+            <div class="service-card">
+              <div class="service-header">
+                <div class="service-icon-small">🧪</div>
+                <h3>Website Testing & QA</h3>
+              </div>
+              <p>End-to-end testing to ensure your website works flawlessly on all devices and browsers — including bug fixing and user testing feedback.</p>
+              <div class="service-price">Starting at $149</div>
+            </div>
           </div>
-          
-          <div class="service-box">
-            <h2>🧪 Website Testing & QA</h2>
-            <p>End-to-end testing to ensure your website works flawlessly on all devices and browsers — including bug fixing and user testing feedback.</p>
+        </div>
+      </section>
+
+      <!-- Process Section -->
+      <section class="process-section">
+        <div class="container">
+          <h2>My Process</h2>
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="step-number">01</div>
+              <h3>Discovery & Planning</h3>
+              <p>We discuss your goals, requirements, and create a detailed project roadmap.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-number">02</div>
+              <h3>Design & Prototype</h3>
+              <p>I create wireframes and prototypes to visualize the final product before development.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-number">03</div>
+              <h3>Development & Testing</h3>
+              <p>Clean, efficient code development with thorough testing across all devices and browsers.</p>
+            </div>
+            <div class="process-step">
+              <div class="step-number">04</div>
+              <h3>Launch & Support</h3>
+              <p>Deployment to production with ongoing support and maintenance as needed.</p>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="services-cta">
+        <div class="container">
+          <div class="cta-content">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's discuss your ideas and create something amazing together. I'm here to help bring your vision to life.</p>
+            <div class="cta-buttons">
+              <a href="contact.html" class="btn-primary">Get Free Quote</a>
+              <a href="project.html" class="btn-secondary">View My Work</a>
+            </div>
+          </div>
+        </div>
       </section>
       
       <!-- Footer -->
   <footer class="about-footer">
-    <p>© 2025 Jhon Wyn Verial | All Rights Reserved</p>
+    <p>© 2026 Jhon Wyn Verial | All Rights Reserved</p>
   </footer>
 
-   <!-- Responsive Nav Toggle Script -->
+   <!-- Enhanced Services Script -->
   <script>
+    // Loading animation
+    window.addEventListener('load', function() {
+      const loading = document.querySelector('.loading');
+      if (loading) {
+        loading.classList.add('hidden');
+        setTimeout(() => loading.remove(), 500);
+      }
+    });
+
     function toggleMenu() {
       const navLinks = document.querySelector('.nav-links');
       navLinks.classList.toggle('show');
+    }
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Back to top button
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.innerHTML = '↑';
+    backToTopBtn.className = 'back-to-top';
+    backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.appendChild(backToTopBtn);
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // Enhanced animations
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate stats
+      const statNumbers = document.querySelectorAll('.stat-number');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const target = entry.target;
+            const finalValue = target.textContent;
+            animateNumber(target, finalValue);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      statNumbers.forEach(stat => observer.observe(stat));
+
+      // Animate service cards
+      const serviceCards = document.querySelectorAll('.featured-service, .service-card, .process-step');
+      const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }, index * 100);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      serviceCards.forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        cardObserver.observe(card);
+      });
+    });
+
+    // Number animation function
+    function animateNumber(element, finalValue) {
+      const isPercentage = finalValue.includes('%');
+      const isPlus = finalValue.includes('+');
+      const numericValue = parseInt(finalValue.replace(/[^\d]/g, ''));
+      
+      let currentValue = 0;
+      const increment = numericValue / 30;
+      
+      const timer = setInterval(() => {
+        currentValue += increment;
+        if (currentValue >= numericValue) {
+          currentValue = numericValue;
+          clearInterval(timer);
+        }
+        
+        let displayValue = Math.floor(currentValue);
+        if (isPercentage) displayValue += '%';
+        if (isPlus) displayValue += '+';
+        
+        element.textContent = displayValue;
+      }, 50);
     }
   </script>
 

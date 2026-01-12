@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jhon Wyn Verial | Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects by Jhon Wyn Verial - View my portfolio of web development projects including e-commerce sites, portfolios, and web applications.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+  <title>Projects | Jhon Wyn Verial | Web Developer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <!-- Loading Animation -->
+  <div class="loading">
+    <div class="spinner"></div>
+  </div>
     <!-- Navbar -->
      <br><br>
  <nav class="navbar">
@@ -20,50 +31,585 @@
   </ul>
 </nav>
 
-    <section class="projects">
-        <h1>My Projects</h1>
-        <p>Check out some of my amazing works. Each one represents my dedication to building beautiful and functional web solutions.</p>
-    
-        <!-- Project 1 -->
-        <div class="project-item">
-          <img src="act1.jpg" alt="Project 1 Image">
-          <div class="project-info">
-            <h2>Responsive E-commerce Website</h2>
-            <p>A fully responsive e-commerce site, optimized for both desktop and mobile users, complete with a shopping cart and secure checkout process.</p>
-            <a href="https://natch16.github.io/Activity1/home.html" class="btn">View Project</a>
-          </div>
+  <!-- Projects Hero Section -->
+  <section class="projects-hero">
+    <div class="projects-hero-content">
+      <h1>My Projects</h1>
+      <p>A showcase of my passion for creating beautiful, functional, and impactful web solutions. Each project represents a unique challenge and creative solution.</p>
+      <div class="projects-stats">
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Projects Completed</span>
         </div>
-    
-        <!-- Project 2 -->
-        <div class="project-item">
-          <img src="act2.jpg" alt="Project 2 Image">
-          <div class="project-info">
-            <h2>Interactive Portfolio</h2>
-            <p>An interactive portfolio built to showcase my skills and projects. It includes smooth animations and a modern layout.</p>
-            <a href="https://natch16.github.io/myFortfolio/home.html" class="btn">View Project</a>
-          </div>
+        <div class="stat-item">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Happy Clients</span>
         </div>
-    
-        <!-- Project 3 -->
-        <div class="project-item">
-          <img src="act3.jpg" alt="Project 3 Image">
-          <div class="project-info">
-            <h2>Task Management App</h2>
-            <p>A task management app designed to help users organize their to-do lists and keep track of deadlines in a user-friendly interface.</p>
-            <a href="https://natch16.github.io/tables/Classmate.html" class="btn">View Project</a>
-          </div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Years Experience</span>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <!-- Footer -->
+  <!-- Project Filter -->
+  <section class="project-filter">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="webapp">Web Apps</button>
+        <button class="filter-btn" data-filter="landing">Landing Pages</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project -->
+  <section class="featured-project">
+    <div class="container">
+      <div class="featured-badge">
+        <span>🌟 Featured Project</span>
+      </div>
+      <div class="featured-content">
+        <div class="featured-image">
+          <img src="act1.jpg" alt="Featured E-commerce Website" loading="lazy">
+          <div class="featured-overlay">
+            <div class="featured-links">
+              <a href="https://natch16.github.io/Activity1/home.html" class="featured-link" target="_blank" rel="noopener">
+                <span>🚀</span>
+                Live Demo
+              </a>
+              <a href="https://github.com/natch16/Activity1" class="featured-link" target="_blank" rel="noopener">
+                <span>💻</span>
+                View Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="featured-info">
+          <div class="featured-tags">
+            <span class="featured-tag">E-commerce</span>
+            <span class="featured-tag">Responsive</span>
+            <span class="featured-tag">JavaScript</span>
+          </div>
+          <h2>Advanced E-commerce Platform</h2>
+          <p>A comprehensive e-commerce solution built from scratch with modern web technologies. Features include dynamic product catalog, shopping cart functionality, user authentication, and responsive design that works seamlessly across all devices.</p>
+          <div class="featured-highlights">
+            <div class="highlight">
+              <span class="highlight-icon">⚡</span>
+              <div class="highlight-text">
+                <strong>Fast Performance</strong>
+                <span>Optimized for speed and SEO</span>
+              </div>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon">📱</span>
+              <div class="highlight-text">
+                <strong>Mobile First</strong>
+                <span>Responsive across all devices</span>
+              </div>
+            </div>
+            <div class="highlight">
+              <span class="highlight-icon">🔒</span>
+              <div class="highlight-text">
+                <strong>Secure</strong>
+                <span>Built with security best practices</span>
+              </div>
+            </div>
+          </div>
+          <div class="tech-stack-featured">
+            <h4>Technologies Used:</h4>
+            <div class="tech-items">
+              <span class="tech-item">HTML5</span>
+              <span class="tech-item">CSS3</span>
+              <span class="tech-item">JavaScript</span>
+              <span class="tech-item">Responsive Design</span>
+              <span class="tech-item">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Projects Grid -->
+  <section class="projects-grid-section">
+    <div class="container">
+      <h2>All Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card" data-category="ecommerce">
+          <div class="project-image">
+            <img src="act1.jpg" alt="E-commerce Website" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-actions">
+                <a href="https://natch16.github.io/Activity1/home.html" class="project-btn" target="_blank" rel="noopener">
+                  <span>👁️</span>
+                  View Live
+                </a>
+                <a href="https://github.com/natch16/Activity1" class="project-btn" target="_blank" rel="noopener">
+                  <span>💻</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>E-commerce Platform</h3>
+              <div class="project-status">
+                <span class="status-badge completed">Completed</span>
+              </div>
+            </div>
+            <p>A fully responsive online store with modern design, shopping cart functionality, and optimized user experience.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2024</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>2 weeks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="portfolio">
+          <div class="project-image">
+            <img src="act2.jpg" alt="Portfolio Website" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-actions">
+                <a href="https://natch16.github.io/myFortfolio/home.html" class="project-btn" target="_blank" rel="noopener">
+                  <span>👁️</span>
+                  View Live
+                </a>
+                <a href="https://github.com/natch16/myFortfolio" class="project-btn" target="_blank" rel="noopener">
+                  <span>💻</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Interactive Portfolio</h3>
+              <div class="project-status">
+                <span class="status-badge completed">Completed</span>
+              </div>
+            </div>
+            <p>A creative portfolio website showcasing development skills with smooth animations and modern design principles.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS3</span>
+              <span>Animations</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2024</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>1 week</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="webapp">
+          <div class="project-image">
+            <img src="act3.jpg" alt="Data Management System" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-actions">
+                <a href="https://natch16.github.io/tables/Classmate.html" class="project-btn" target="_blank" rel="noopener">
+                  <span>👁️</span>
+                  View Live
+                </a>
+                <a href="https://github.com/natch16/tables" class="project-btn" target="_blank" rel="noopener">
+                  <span>💻</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Data Management System</h3>
+              <div class="project-status">
+                <span class="status-badge completed">Completed</span>
+              </div>
+            </div>
+            <p>A comprehensive data management interface with advanced table structures and responsive design implementation.</p>
+            <div class="project-tech">
+              <span>HTML Tables</span>
+              <span>CSS Grid</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2024</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>3 days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder Projects -->
+        <div class="project-card" data-category="landing">
+          <div class="project-image placeholder">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🚧</span>
+              <span class="placeholder-text">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Business Landing Page</h3>
+              <div class="project-status">
+                <span class="status-badge in-progress">In Progress</span>
+              </div>
+            </div>
+            <p>A modern landing page for a local business with conversion-focused design and smooth animations.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Tailwind CSS</span>
+              <span>Framer Motion</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2025</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>1 week</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="webapp">
+          <div class="project-image placeholder">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🚧</span>
+              <span class="placeholder-text">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Task Management App</h3>
+              <div class="project-status">
+                <span class="status-badge planned">Planned</span>
+              </div>
+            </div>
+            <p>A full-stack task management application with real-time updates and collaborative features.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2025</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>3 weeks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ecommerce">
+          <div class="project-image placeholder">
+            <div class="placeholder-content">
+              <span class="placeholder-icon">🚧</span>
+              <span class="placeholder-text">Coming Soon</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-header">
+              <h3>Multi-vendor Marketplace</h3>
+              <div class="project-status">
+                <span class="status-badge planned">Planned</span>
+              </div>
+            </div>
+            <p>A comprehensive marketplace platform allowing multiple vendors to sell their products with advanced features.</p>
+            <div class="project-tech">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Bootstrap</span>
+            </div>
+            <div class="project-meta">
+              <div class="meta-item">
+                <span class="meta-icon">📅</span>
+                <span>2025</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-icon">⏱️</span>
+                <span>6 weeks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Showcase -->
+  <section class="skills-showcase">
+    <div class="container">
+      <h2>Technologies I Work With</h2>
+      <div class="skills-categories">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-icon">🌐</span>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🎨</span>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚡</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">⚛️</span>
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-icon">🐘</span>
+              <span>PHP</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🗄️</span>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🟢</span>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🍃</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-icon">🔧</span>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🎨</span>
+              <span>Figma</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">💻</span>
+              <span>VS Code</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">🚀</span>
+              <span>Netlify</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="projects-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Have a Project in Mind?</h2>
+        <p>I'm always excited to work on new challenges and bring creative ideas to life. Let's discuss your project and see how we can work together.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn-primary-projects">Start a Project</a>
+          <a href="service.html" class="btn-secondary-projects">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="about-footer">
-    <p>© 2025 Jhon Wyn Verial | All Rights Reserved</p>
+    <p>© 2026 Jhon Wyn Verial | All Rights Reserved</p>
   </footer>
 
   <script>
+    // Loading animation
+    window.addEventListener('load', function() {
+      const loading = document.querySelector('.loading');
+      if (loading) {
+        loading.classList.add('hidden');
+        setTimeout(() => loading.remove(), 500);
+      }
+    });
+
     function toggleMenu() {
       const navLinks = document.querySelector('.nav-links');
       navLinks.classList.toggle('show');
+    }
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Back to top button
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.innerHTML = '↑';
+    backToTopBtn.className = 'back-to-top';
+    backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.appendChild(backToTopBtn);
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // Enhanced animations and interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Project filter functionality
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          button.classList.add('active');
+
+          const filterValue = button.getAttribute('data-filter');
+
+          projectCards.forEach(card => {
+            if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+              card.style.display = 'block';
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+              }, 100);
+            } else {
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(20px)';
+              setTimeout(() => {
+                card.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+
+      // Animate stats
+      const statNumbers = document.querySelectorAll('.stat-number');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const target = entry.target;
+            const finalValue = target.textContent;
+            animateNumber(target, finalValue);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      statNumbers.forEach(stat => observer.observe(stat));
+
+      // Animate sections
+      const sections = document.querySelectorAll('.featured-project, .projects-grid-section, .skills-showcase, .projects-cta');
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1 });
+
+      sections.forEach(section => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(30px)';
+        section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        sectionObserver.observe(section);
+      });
+
+      // Animate project cards
+      const cards = document.querySelectorAll('.project-card');
+      const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }, index * 150);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      cards.forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        cardObserver.observe(card);
+      });
+    });
+
+    // Number animation function
+    function animateNumber(element, finalValue) {
+      const isPlus = finalValue.includes('+');
+      const numericValue = parseInt(finalValue.replace(/[^\d]/g, ''));
+      
+      let currentValue = 0;
+      const increment = numericValue / 30;
+      
+      const timer = setInterval(() => {
+        currentValue += increment;
+        if (currentValue >= numericValue) {
+          currentValue = numericValue;
+          clearInterval(timer);
+        }
+        
+        let displayValue = Math.floor(currentValue);
+        if (isPlus) displayValue += '+';
+        
+        element.textContent = displayValue;
+      }, 50);
     }
   </script>
 </body>

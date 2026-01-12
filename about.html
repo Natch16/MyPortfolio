@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jhon Wyn Verial | Web Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Jhon Wyn Verial - Professional Web Developer from the Philippines with 3+ years of experience in modern web technologies.">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+  <title>About | Jhon Wyn Verial | Web Developer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+  <!-- Loading Animation -->
+  <div class="loading">
+    <div class="spinner"></div>
+  </div>
  <br><br>
   <!-- Navbar -->
  <nav class="navbar">
@@ -20,95 +31,420 @@
   </ul>
 </nav>
 
-  <!-- Header -->
-  <header class="about-header">
-    <h1>About Me</h1>
-    <p>Get to know the guy behind the code.</p>
-  </header>
-
-  <!-- About Section -->
-  <section class="about-content">
-    <div class="profile-pic">
-      <img src="pic.jpg" alt="Jhon Wyn Verial">
+  <!-- About Hero Section -->
+  <section class="about-hero">
+    <div class="about-hero-content">
+      <div class="hero-text">
+        <h1>About Me</h1>
+        <p class="hero-subtitle">Get to know the guy behind the code</p>
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon">🚀</span>
+            <span>3+ Years Experience</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">�</span>
+            <span>50+ Projects Completed</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">🌍</span>
+            <span>Based in Philippines</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="pic.jpg" alt="Jhon Wyn Verial">
+          <div class="image-overlay"></div>
+        </div>
+      </div>
     </div>
-    <div class="bio">
-      <h2>Hi, I'm Jhon Wyn Verial 👋</h2>
-      <p>
-        I'm a passionate web developer from the Philippines who loves turning ideas into clean, responsive, and interactive websites. With over 3 years of experience, I've worked on everything from personal blogs to e-commerce platforms.
-      </p>
-      <p>
-        My mission? Build user-friendly websites that not only look good but also perform great. I'm currently open for freelance projects, collaborations, or even a friendly tech talk!
-      </p>
-      <a href="home.html" class="btn">← Back to Home</a>
+  </section>
+
+  <!-- Personal Story Section -->
+  <section class="personal-story">
+    <div class="container">
+      <div class="story-content">
+        <h2>Hi, I'm Jhon Wyn Verial 👋</h2>
+        <div class="story-text">
+          <p>
+            I'm a passionate web developer from the Philippines who loves turning ideas into clean, responsive, and interactive websites. My journey in web development started during my college years, and I've been hooked ever since.
+          </p>
+          <p>
+            With over 3 years of experience, I've worked on everything from personal blogs to complex e-commerce platforms. I believe that great websites should not only look amazing but also provide exceptional user experiences and perform flawlessly across all devices.
+          </p>
+          <p>
+            My mission? Build user-friendly websites that not only look good but also drive results for businesses. I'm currently open for freelance projects, collaborations, or even a friendly tech talk!
+          </p>
+        </div>
+        <div class="story-cta">
+          <a href="contact.html" class="btn-primary">Let's Work Together</a>
+          <a href="project.html" class="btn-secondary">View My Work</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-<section class="skills-section">
-    <h2>My Skills</h2>
-    <div class="skills-container">
-      <div class="skill">
-        <span>HTML & CSS</span>
-        <div class="progress"><div class="bar" style="width: 95%;"></div></div>
-      </div>
-      <div class="skill">
-        <span>JavaScript</span>
-        <div class="progress"><div class="bar" style="width: 85%;"></div></div>
-      </div>
-      <div class="skill">
-        <span>React</span>
-        <div class="progress"><div class="bar" style="width: 75%;"></div></div>
-      </div>
-      <div class="skill">
-        <span>PHP & MySQL</span>
-        <div class="progress"><div class="bar" style="width: 80%;"></div></div>
-      </div>
-      <div class="skill">
-        <span>WordPress</span>
-        <div class="progress"><div class="bar" style="width: 70%;"></div></div>
+  <section class="skills-section-enhanced">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend Development</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML & CSS</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Backend & Database</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">PHP & MySQL</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">WordPress</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  
-  <!-- Education Section -->
-  <section class="education-section">
-    <h2>Education</h2>
-    <ul class="timeline">
-      <li>
-        <h3>Bachelor of Science in Information Technology</h3>
-        <p>Gingoog City Colleges Inc. | 2025 - Present</p>
-      </li>
-      <li>
-        <h3>Senior High - GAS Strand</h3>
-        <p>San Andres National High School | 2020 - 2022</p>
-      </li>
-    </ul>
-  </section>
-  
-  <!-- Tools & Tech Stack -->
-  <section class="tools-section">
-    <h2>Tools I Use</h2>
-    <div class="tools-grid">
-      <div class="tool">VS Code</div>
-      <div class="tool">Git & GitHub</div>
-      <div class="tool">Figma</div>
-      <div class="tool">Bootstrap</div>
-      <div class="tool">Tailwind CSS</div>
-      <div class="tool">Netlify</div>
+
+  <!-- Experience & Education Timeline -->
+  <section class="timeline-section">
+    <div class="container">
+      <h2>My Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2026 - Present</div>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Gingoog City Colleges Inc.</p>
+            <span class="timeline-type">Education</span>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 - Present</div>
+            <h3>Freelance Web Developer</h3>
+            <p>Building custom websites and web applications for clients worldwide</p>
+            <span class="timeline-type">Experience</span>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2020 - 2022</div>
+            <h3>Senior High - GAS Strand</h3>
+            <p>San Andres National High School</p>
+            <span class="timeline-type">Education</span>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2020</div>
+            <h3>Started Web Development Journey</h3>
+            <p>Began learning HTML, CSS, and JavaScript through online courses and tutorials</p>
+            <span class="timeline-type">Milestone</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  
+
+  <!-- Tools & Technologies -->
+  <section class="tools-section-enhanced">
+    <div class="container">
+      <h2>Tools & Technologies</h2>
+      <div class="tools-categories">
+        <div class="tool-category">
+          <h3>Development Tools</h3>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <div class="tool-icon">💻</div>
+              <span>VS Code</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">🔧</div>
+              <span>Git & GitHub</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">🐳</div>
+              <span>Docker</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">📦</div>
+              <span>npm/yarn</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tool-category">
+          <h3>Design & Frameworks</h3>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <div class="tool-icon">🎨</div>
+              <span>Figma</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">🅱️</div>
+              <span>Bootstrap</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">🌊</div>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">⚛️</div>
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tool-category">
+          <h3>Deployment & Hosting</h3>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <div class="tool-icon">🚀</div>
+              <span>Netlify</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">▲</div>
+              <span>Vercel</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">🌐</div>
+              <span>GitHub Pages</span>
+            </div>
+            <div class="tool-item">
+              <div class="tool-icon">☁️</div>
+              <span>Cloudflare</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fun Facts Section -->
+  <section class="fun-facts">
+    <div class="container">
+      <h2>Fun Facts About Me</h2>
+      <div class="facts-grid">
+        <div class="fact-item">
+          <div class="fact-icon">☕</div>
+          <h3>Coffee Lover</h3>
+          <p>I can't start coding without my morning coffee. It's my fuel for creativity!</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">🌙</div>
+          <h3>Night Owl</h3>
+          <p>My most productive coding hours are usually between 10 PM and 2 AM.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">🎮</div>
+          <h3>Gamer</h3>
+          <p>When I'm not coding, you'll find me playing strategy games or exploring new worlds.</p>
+        </div>
+        <div class="fact-item">
+          <div class="fact-icon">📚</div>
+          <h3>Continuous Learner</h3>
+          <p>I'm always learning new technologies and staying updated with the latest trends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="about-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Let's Create Something Amazing Together</h2>
+        <p>I'm always excited to work on new projects and collaborate with amazing people. Whether you have a project in mind or just want to chat about web development, I'd love to hear from you!</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn-primary">Get In Touch</a>
+          <a href="service.html" class="btn-secondary">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="about-footer">
-    <p>© 2025 Jhon Wyn Verial | All Rights Reserved</p>
+    <p>© 2026 Jhon Wyn Verial | All Rights Reserved</p>
   </footer>
 
   <script>
+    // Loading animation
+    window.addEventListener('load', function() {
+      const loading = document.querySelector('.loading');
+      if (loading) {
+        loading.classList.add('hidden');
+        setTimeout(() => loading.remove(), 500);
+      }
+    });
+
     function toggleMenu() {
       const navLinks = document.querySelector('.nav-links');
       navLinks.classList.toggle('show');
     }
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Back to top button
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.innerHTML = '↑';
+    backToTopBtn.className = 'back-to-top';
+    backToTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.appendChild(backToTopBtn);
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // Enhanced animations
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate skill bars
+      const skillBars = document.querySelectorAll('.skill-progress');
+      const skillObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const bar = entry.target;
+            const width = bar.getAttribute('data-width');
+            setTimeout(() => {
+              bar.style.width = width;
+            }, 200);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      skillBars.forEach(bar => skillObserver.observe(bar));
+
+      // Animate sections
+      const sections = document.querySelectorAll('.personal-story, .skills-section-enhanced, .timeline-section, .tools-section-enhanced, .fun-facts');
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1 });
+
+      sections.forEach(section => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(30px)';
+        section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        sectionObserver.observe(section);
+      });
+
+      // Animate timeline items
+      const timelineItems = document.querySelectorAll('.timeline-item');
+      const timelineObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateX(0)';
+            }, index * 200);
+          }
+        });
+      }, { threshold: 0.3 });
+
+      timelineItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-50px)';
+        item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        timelineObserver.observe(item);
+      });
+
+      // Animate tool items
+      const toolItems = document.querySelectorAll('.tool-item, .fact-item');
+      const toolObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }, index * 100);
+          }
+        });
+      }, { threshold: 0.2 });
+
+      toolItems.forEach(item => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(20px)';
+        item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        toolObserver.observe(item);
+      });
+    });
   </script>
 
 </body>
